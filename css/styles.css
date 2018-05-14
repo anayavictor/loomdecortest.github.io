@@ -1,0 +1,62 @@
+.footer {
+    padding: 10px 0;
+  }
+  .footer a {
+    color: #494949;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  .footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  .footer a:hover {
+    color: rgb(39, 161, 86);
+  }
+  h3, h6, small{
+    font-family: 'Comfortaa';
+    animation: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  h2 {
+    font-size: 40px;
+  }
+  #page-header {
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #4a494a;
+    padding-top: 50px;
+    font-family: 'Comfortaa';
+    padding-bottom: 2em;
+}
+.img-fluid {
+  margin-top: -150px; 
+  max-width: 200px;
+  height: auto;
+}
+.copyright {
+max-width: 600px;
+}
+
+#staff {
+  background-color: #eceef2
+}
+
+.logo {
+width: 60%;
+max-height: 3em;
+}
+#overlay {
+  position: relative;
+  min-height: 200px;
+  min-width: 100px;
+  background: url("../img/living1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -30px;
+}
+
+.register {
+  max-width: 60%;
+}
+
